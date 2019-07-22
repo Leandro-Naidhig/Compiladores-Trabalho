@@ -1,0 +1,12 @@
+Testes/teste6 : 6 : O retorno da função não está associado á uma variável
+  }
+
+Testes/teste6 : 9 : O retorno da função não está associado á uma variável
+  }
+
+Testes/teste6 : 11 : É esperado '}'
+function imprima(before: Int, valor: Int, after: String, next: Boolean) {
+
+Testes/teste6 : 11 : Código fonte deve ter um procedimento chamado main
+function imprima(before: Int, valor: Int, after: String, next: Boolean) {
+

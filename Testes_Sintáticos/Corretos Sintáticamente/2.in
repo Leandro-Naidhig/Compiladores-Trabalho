@@ -1,0 +1,10 @@
+function soma (x : Int, y : Int){
+  var a : Int;
+
+  a = x + y;
+  write (a);
+}
+
+function main {
+  soma (3, 2);
+}

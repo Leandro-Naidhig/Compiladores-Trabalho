@@ -1,0 +1,12 @@
+Testes/teste18 : 5 : O retorno da função não está associado á uma variável
+  }
+
+Testes/teste18 : 8 : O retorno da função não está associado á uma variável
+  }
+
+Testes/teste18 : 14 : É esperado um identificador antes do '='
+  2+2 = 2*3;
+
+Testes/teste18 : 26 : Parâmetro com expressao do tipo 'boolean' é esperado, porem o tipo encontrado foi 'integer'
+  imprima(50, fatorial(5)+2/fatorial(3), "Sera sempre assim", 0);
+

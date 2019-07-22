@@ -1,0 +1,12 @@
+Testes/teste15 : 4 : O retorno da função não está associado á uma variável
+  }
+
+Testes/teste15 : 7 : O retorno da função não está associado á uma variável
+  }
+
+Testes/teste15 : 22 : Não é permitido a passagem de parâmetros na função main
+function main(before: Int) {
+
+Testes/teste15 : 25 : A funcao Main não pode ter retorno
+}
+

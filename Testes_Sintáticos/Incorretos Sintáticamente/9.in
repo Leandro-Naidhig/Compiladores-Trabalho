@@ -1,0 +1,9 @@
+function soma(x : Int, y : Int) Char{
+  var result : Int;
+
+  result = x + y
+}
+
+function main{
+  soma(3,2);
+}

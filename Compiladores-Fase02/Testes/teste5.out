@@ -1,0 +1,12 @@
+Testes/teste5 : 5 : Foi ultrapassado o limite do número!
+    return 12121212121212121;
+
+Testes/teste5 : 6 : O retorno da função não está associado á uma variável
+  }
+
+Testes/teste5 : 9 : O retorno da função não está associado á uma variável
+  }
+
+Testes/teste5 : 25 : Chamada de da função 'imprima' sendo feita com '3' ao invez de '4' parametro(s)
+  imprima(50, fatorial(5)+2/fatorial(3), "Sera sempre assim");
+

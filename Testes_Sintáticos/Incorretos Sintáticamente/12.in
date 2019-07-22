@@ -1,0 +1,26 @@
+function soma(x : Int, y : Int) -> Int{
+  var result : Int;
+  var i : Int;
+  var logico : Boolean;
+  
+  i = 1;
+  result = x + y;
+
+  while i > 0{
+    if result != 3 and i < 4{
+      i = i * 10;
+    }
+    else{
+      if result < 5{
+        logico = true
+      }
+    }
+  }
+  return result;
+}
+
+function main{
+  var soma : Int;
+
+  soma = soma(3,2);
+}

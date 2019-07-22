@@ -1,0 +1,15 @@
+Testes/teste14 : 4 : O retorno da função não está associado á uma variável
+  }
+
+Testes/teste14 : 7 : O retorno da função não está associado á uma variável
+  }
+
+Testes/teste14 : 12 : É esperado um identificador na funcao readInt
+  id = readInt();
+
+Testes/teste14 : 13 : O identificador 'i' não foi declarado
+  while i < before {
+
+Testes/teste14 : 23 : Parâmetro com expressao do tipo 'boolean' é esperado, porem o tipo encontrado foi 'integer'
+  imprima(50, fatorial(5)+2/fatorial(3), "Sera sempre assim", 0);
+

@@ -1,0 +1,13 @@
+function soma(x : Int, y : Int) -> Int{
+  var result : Int;
+
+  result = x + y;
+
+  return 
+}
+
+function main{
+  var soma : Int;
+
+  soma = soma(3,2);
+}

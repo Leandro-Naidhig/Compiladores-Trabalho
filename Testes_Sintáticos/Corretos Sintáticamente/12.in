@@ -1,0 +1,18 @@
+function logicoE -> Boolean{
+  var op : Boolean;
+  var opd : Boolean;
+
+  op = true;
+  opD = false;
+
+  if op and opD {
+    write ("V");
+  }
+  else{
+    write("F");
+  }
+}
+
+function main{
+  logicoE();
+}

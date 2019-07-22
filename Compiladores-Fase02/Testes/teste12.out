@@ -1,0 +1,12 @@
+Testes/teste12 : 4 : O retorno da função não está associado á uma variável
+  }
+
+Testes/teste12 : 7 : O retorno da função não está associado á uma variável
+  }
+
+Testes/teste12 : 20 : O identificador 'i' já foi declarado
+    var i: Int;
+
+Testes/teste12 : 24 : Parâmetro com expressao do tipo 'boolean' é esperado, porem o tipo encontrado foi 'integer'
+  imprima(50, fatorial(5)+2/fatorial(3), "Sera sempre assim", 0);
+

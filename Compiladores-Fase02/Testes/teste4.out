@@ -1,0 +1,12 @@
+Testes/teste4 : 5 : O retorno da função não está associado á uma variável
+  }
+
+Testes/teste4 : 8 : O retorno da função não está associado á uma variável
+  }
+
+Testes/teste4 : 11 : É esperado um identificador
+function imprima(before: Int, valor: Int, after: String, function: Boolean) -> Int {
+
+Testes/teste4 : 24 : Chamada de da função 'imprima' sendo feita com '3' ao invez de '4' parametro(s)
+  imprima(50, fatorial(5)+2/fatorial(3), "Sera sempre assim");
+

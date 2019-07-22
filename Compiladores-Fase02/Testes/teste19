@@ -1,0 +1,20 @@
+function fatorial(n : Int) -> Int {
+    return 1;
+}
+
+function imprima(before: Int, valor: Int, after: String, next: Boolean) {
+  var i : Int;
+  i = 0;
+  while i < before {
+    write("");
+    i = i + 1;
+  }
+  writeln("");
+  writeln(valor);
+  writeln(after);
+}
+
+function main {
+  fatorial(5);
+  imprima(50, 2, "Sera sempre assim", true);
+}

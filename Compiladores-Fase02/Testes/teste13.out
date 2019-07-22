@@ -1,0 +1,15 @@
+Testes/teste13 : 4 : O retorno da função não está associado á uma variável
+  }
+
+Testes/teste13 : 7 : O retorno da função não está associado á uma variável
+  }
+
+Testes/teste13 : 11 : Identificador esperado
+  var write : Int;
+
+Testes/teste13 : 12 : O identificador 'i' não foi declarado
+  i = 0;
+
+Testes/teste13 : 23 : Parâmetro com expressao do tipo 'boolean' é esperado, porem o tipo encontrado foi 'integer'
+  imprima(50, fatorial(5)+2/fatorial(3), "Sera sempre assim", 0);
+

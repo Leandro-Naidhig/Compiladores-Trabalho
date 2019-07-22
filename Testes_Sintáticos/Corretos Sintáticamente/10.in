@@ -1,0 +1,5 @@
+function main {
+  var l : Boolean;
+  l = true;
+  l = false;
+}

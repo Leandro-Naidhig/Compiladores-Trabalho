@@ -1,0 +1,9 @@
+Testes/teste7 : 6 : O retorno da função não está associado á uma variável
+  }
+
+Testes/teste7 : 9 : É esperado ';' após a expressão
+  }
+
+Testes/teste7 : 25 : Chamada de da função 'imprima' sendo feita com '3' ao invez de '4' parametro(s)
+  imprima(50, fatorial(5)+2/fatorial(3), "Sera sempre assim");
+

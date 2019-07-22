@@ -1,0 +1,12 @@
+Testes/teste9 : 4 : O retorno da função não está associado á uma variável
+  }
+
+Testes/teste9 : 7 : O retorno da função não está associado á uma variável
+  }
+
+Testes/teste9 : 20 : O identificador 'i' já foi declarado
+    var i: Int;
+
+Testes/teste9 : 24 : Chamada de da função 'imprima' sendo feita com '3' ao invez de '4' parametro(s)
+  imprima(50, fatorial(5)+2/fatorial(3), "Sera sempre assim");
+

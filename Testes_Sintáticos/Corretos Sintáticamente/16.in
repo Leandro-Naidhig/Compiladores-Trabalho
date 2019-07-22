@@ -1,0 +1,73 @@
+function imprime(q : Int, w : Int, e : Int, nomeFunc : String){
+  writeln("**************");
+  writeln(q);
+  writeln(w);
+  writeln(e);
+  writeln(nomeFunc);
+  writeln("***Fim***");
+}
+
+function aninhamento(k : Int, l : Int) -> Int{
+  var i : Int;
+  var j : Int;
+  var alternaLogico : Boolean;
+  var a : Boolean;
+  var b : Int;
+
+  var final : Int;
+
+  final = 0;
+  b = 4000;
+  i = 0;
+  j = k * l;
+  a = false;
+
+  while i <= k{
+    alternaLogico = true;
+    while j >= l{
+      if a == alternaLogico {
+        b = b / 2;
+        final = final + 1;
+      }
+      else {
+        if b < 2 or b != 4 and b > 5{
+          b = b - 1;
+        }
+      }
+      alternaLogico = false;
+      j = j - 2;
+      final = final - 1;
+    }
+    i = i + 1;
+  }
+
+  imprime(i, j, b, " aninhamento");
+
+  return final;
+}
+
+function main{
+  var h : Int;
+  var g : Int;
+  var res : Int;
+
+  res = aninhamento(h,g);
+
+  var n : String;
+  n = "variavel de texto da main";
+
+  imprime(90, 30, 30, "chamada de funcao da main");
+
+  var i : Int;
+  i = 0;
+
+  var resDois : Int;
+  
+  while i != 3{
+    imprime (i, i+1, i+2, "i, i+1, i+2");
+    i = i + 1;
+    if i == 2{
+      resDois = aninhamento(i, i+1);
+    }
+  }
+}

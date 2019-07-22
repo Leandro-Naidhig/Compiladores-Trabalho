@@ -1,0 +1,12 @@
+Testes/teste16 : 4 : O retorno da função não está associado á uma variável
+  }
+
+Testes/teste16 : 7 : O retorno da função não está associado á uma variável
+  }
+
+Testes/teste16 : 21 : Variaveis possuem tipos incompátiveis para a atribuição
+  i = true;
+
+Testes/teste16 : 25 : Parâmetro com expressao do tipo 'boolean' é esperado, porem o tipo encontrado foi 'integer'
+  imprima(50, fatorial(5)+2/fatorial(3), "Sera sempre assim", 0);
+

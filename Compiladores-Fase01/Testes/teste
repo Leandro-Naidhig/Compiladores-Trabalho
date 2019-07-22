@@ -1,0 +1,3 @@
+Error at line 11: 
+function imprima(before: Int, valor: Int, after: String, next: Boolean) {
+É esperado '}'
