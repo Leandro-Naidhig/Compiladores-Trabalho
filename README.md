@@ -16,7 +16,7 @@ Realização da Análise Léxica, Sintática, Semântica e Geração do Código 
 
 ----
 
-#### Integrantes
+## Integrantes
 
 - Nome: [Chady Chaito](https://github.com/chadychaito) RA: 613697
 
