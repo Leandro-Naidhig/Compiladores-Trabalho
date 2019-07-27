@@ -18,30 +18,29 @@ Realização da Análise Léxica, Sintática, Semântica e Geração do Código 
 
 #### Gramática
 
-Program ::= Func {F unc}
-Func ::= "function" Id [ "(" ParamList ")" ] ["->" Type ] StatList
-ParamList ::= ParamDec {”, ”P aramDec}
-
-ParamDec ::= Id ":" Type
-Type ::= "Int" | "Boolean" | "String"
-StatList ::= "{” {Stat} ”}"
-Stat ::= AssignExprStat | ReturnStat | VarDecStat | IfStat | WhileStat
-AssignExprStat ::= Expr [ "=" Expr ] ";"
-ReturnStat ::= "return" Expr ";"
-VarDecStat ::= "var" Id ":" Type ";"
-IfStat ::= "if" Expr StatList [ "else" StatList ]
-WhileStat ::= "while" Expr StatList
-Expr ::= ExprAnd {”or”ExprAnd}
-ExprAnd ::= ExprRel {”and”ExprRel}
-ExprRel ::= ExprAdd [ RelOp ExprAdd ]
-RelOp ::= "<" | "<=" | ">" | ">=" | "==" | "!="
-ExprAdd ::= ExprMult {(” + ” | ” − ”)ExprM ult}
-ExprMult ::= ExprUnary {(” ∗ ” | ”/”)ExprU nary}
-ExprUnary ::= [ ( "+" | "-" ) ] ExprPrimary
-ExprPrimary ::= Id | FuncCall | ExprLiteral
-ExprLiteral ::= LiteralInt | LiteralBoolean | LiteralString
-LiteralBoolean ::= "true" | "false"
-FuncCall ::= Id "(" [ Expr {”, ”Expr} ] ")"
+Program ::= Func {F unc}<br/>
+Func ::= "function" Id [ "(" ParamList ")" ] ["->" Type ] StatList<br/>
+ParamList ::= ParamDec {”, ”P aramDec}<br/>
+ParamDec ::= Id ":" Type<br/>
+Type ::= "Int" | "Boolean" | "String"<br/>
+StatList ::= "{” {Stat} ”}"<br/>
+Stat ::= AssignExprStat | ReturnStat | VarDecStat | IfStat | WhileStat<br/>
+AssignExprStat ::= Expr [ "=" Expr ] ";"<br/>
+ReturnStat ::= "return" Expr ";"<br/>
+VarDecStat ::= "var" Id ":" Type ";"<br/>
+IfStat ::= "if" Expr StatList [ "else" StatList ]<br/>
+WhileStat ::= "while" Expr StatList<br/>
+Expr ::= ExprAnd {”or”ExprAnd}<br/>
+ExprAnd ::= ExprRel {”and”ExprRel}<br/>
+ExprRel ::= ExprAdd [ RelOp ExprAdd ]<br/>
+RelOp ::= "<" | "<=" | ">" | ">=" | "==" | "!="<br/>
+ExprAdd ::= ExprMult {(” + ” | ” − ”)ExprM ult}<br/>
+ExprMult ::= ExprUnary {(” ∗ ” | ”/”)ExprU nary}<br/>
+ExprUnary ::= [ ( "+" | "-" ) ] ExprPrimary<br/>
+ExprPrimary ::= Id | FuncCall | ExprLiteral<br/>
+ExprLiteral ::= LiteralInt | LiteralBoolean | LiteralString<br/>
+LiteralBoolean ::= "true" | "false"<br/>
+FuncCall ::= Id "(" [ Expr {”, ”Expr} ] ")"<br/>
 
 ----
 
