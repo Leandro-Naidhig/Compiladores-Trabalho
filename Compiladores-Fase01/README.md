@@ -10,7 +10,9 @@ Trabalho Prático da disciplina de Compiladores:
 
 **Fase 1:** Realização da Análise Léxica e Sintática.
 
-#### Integrantes: 
+----
+
+## Integrantes: 
 
 - Nome: [Chady Chaito](https://github.com/chadychaito) RA: 613697
 
