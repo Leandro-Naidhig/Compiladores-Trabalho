@@ -45,12 +45,12 @@ FuncCall ::= Id "(" [ Expr {”, ”Expr} ] ")"<br/>
 #### Execução (Comandos via terminal)
 
 - javac Main.c
-- java Main <arquivo_entrada> <arquivo_saida>
+- java Main <arquivo_entrada>  <arquivo_saida>
 
-ou 
+  OU
 
 - make
-- java Main <arquivo_entrada> <arquivo_saida>
+- java Main <arquivo_entrada>  <arquivo_saida>
 
 ----
 
