@@ -40,7 +40,7 @@ ExprUnary ::= [ ( "+" | "-" ) ] ExprPrimary\
 ExprPrimary ::= Id | FuncCall | ExprLiteral\
 ExprLiteral ::= LiteralInt | LiteralBoolean | LiteralString\
 LiteralBoolean ::= "true" | "false"\
-FuncCall ::= Id "(" [ Expr {”, ”Expr} ] ")"\
+FuncCall ::= Id "(" [ Expr {”, ”Expr} ] ")"
 
 #### Execução (Comandos via terminal)
 
