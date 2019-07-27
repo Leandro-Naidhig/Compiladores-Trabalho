@@ -19,8 +19,11 @@ Realização da Análise Léxica, Sintática, Semântica e Geração do Código 
 #### Gramática
 
 Program ::= Func {F unc}
+
 Func ::= "function" Id [ "(" ParamList ")" ] ["->" Type ] StatList
+
 ParamList ::= ParamDec {”, ”P aramDec}
+
 ParamDec ::= Id ":" Type
 Type ::= "Int" | "Boolean" | "String"
 StatList ::= "{” {Stat} ”}"
