@@ -10,7 +10,9 @@ Trabalho Prático da disciplina de Compiladores:
 
 **Fase 3:** Realização da Análise Léxica, Sintática, Semântica e Geração do Código na Linguagem C.
 
-#### Integrantes:
+----
+
+## Integrantes:
 
 - Nome: [Chady Chaito](https://github.com/chadychaito) RA: 613697
 
