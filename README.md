@@ -6,9 +6,11 @@ Universidade Federal de São Carlos
 
 Campus Sorocaba
 
-Trabalho Prático da disciplina de Compiladores:
+Trabalho Prático da disciplina de Compiladores
 
-Descrição do Trabalho
+----
+
+## Descrição do Trabalho
 
 Realização da Análise Léxica, Sintática, Semântica e Geração do Código na Linguagem C.
 
