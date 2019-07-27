@@ -14,7 +14,7 @@ Trabalho Prático da disciplina de Compiladores
 
 #### Objetivos
 
-Realização da Análise Léxica, Sintática, Semântica e Geração do Código na Linguagem C.
+Realização da Análise Léxica, Sintática, Semântica e Geração do Código na Linguagem C a partir da gramática do trabalho, em que se o compilador aceitar a entrada de uma sentença, é gerado o código em C, caso não, é gerado uma lista de erros.
 
 #### Gramática
 
@@ -41,6 +41,16 @@ ExprPrimary ::= Id | FuncCall | ExprLiteral<br/>
 ExprLiteral ::= LiteralInt | LiteralBoolean | LiteralString<br/>
 LiteralBoolean ::= "true" | "false"<br/>
 FuncCall ::= Id "(" [ Expr {”, ”Expr} ] ")"<br/>
+
+#### Execução (Comandos via terminal)
+
+- javac Main.c
+- java Main <arquivo_entrada> <arquivo_saida>
+
+ou 
+
+- make
+- java Main <arquivo_entrada> <arquivo_saida>
 
 ----
 
